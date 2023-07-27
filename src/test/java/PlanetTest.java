@@ -23,6 +23,12 @@ public class PlanetTest {
         int numberOfMoons = venus.getNumberOfMoons();
         Assert.assertEquals(numberOfMoons, 0);
     }
+    @Test
+    public void testGetNumberOfMoonsNegetive() {
+        Planet venus = new Planet("Venus", 0, false, Arrays.asList("Carbon Dioxide", "Nitrogen"));
+        int numberOfMoons = venus.getNumberOfMoons();
+        Assert.assertEquals(numberOfMoons, 1);
+    }
 
     @Test
     public void testGetSurfaceGases() {
@@ -30,11 +36,23 @@ public class PlanetTest {
         List<String> surfaceGases = venus.getSurfaceGases();
         Assert.assertEquals(surfaceGases, Arrays.asList("Carbon Dioxide", "Nitrogen"));
     }
+    @Test
+    public void testGetSurfaceGasesNegetive() {
+        Planet venus = new Planet("Venus", 0, false, Arrays.asList("Carbon Dioxide", "Nitrogen"));
+        List<String> surfaceGases = venus.getSurfaceGases();
+        Assert.assertEquals(surfaceGases, Arrays.asList("Carbon Dioxide"));
+    }
 
     @Test
     public void testIsRings() {
         Planet venus = new Planet("Venus", 0, false, Arrays.asList("Carbon Dioxide", "Nitrogen"));
         boolean hasRings = venus.isRings();
         Assert.assertFalse(hasRings);
+    }
+    @Test
+    public void testIsRingsFalse() {
+        Planet venus = new Planet("Venus", 0, false, Arrays.asList("Carbon Dioxide", "Nitrogen"));
+        boolean hasRings = venus.isRings();
+        Assert.assertTrue(hasRings);
     }
 }

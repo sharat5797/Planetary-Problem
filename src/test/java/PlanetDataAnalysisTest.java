@@ -35,7 +35,17 @@ public class PlanetDataAnalysisTest {
     }
 
     @Test
+    public void testMoonsCountIfRingsPresentNegetive() {
+        Assert.assertEquals(planetDataAnalysis.moonsCountIfRingsPresent(planets),190);
+    }
+
+    @Test
     public void gasFoundOnMaximumPlanetsTest() {
         Assert.assertEquals(planetDataAnalysis.gasFoundOnMaximumPlanets(planets),new ArrayList<>(Arrays.asList("Hydrogen","Helium")));
+    }
+
+    @Test
+    public void gasFoundOnMaximumPlanetsTestNegetive() {
+        Assert.assertEquals(planetDataAnalysis.gasFoundOnMaximumPlanets(planets),new ArrayList<>(Arrays.asList("Hydrogen")));
     }
 }
