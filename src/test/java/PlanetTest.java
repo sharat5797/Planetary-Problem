@@ -13,7 +13,7 @@ public class PlanetTest {
         List<String> surfaceGases = Arrays.asList("Carbon Dioxide", "Nitrogen");
         Planet venus = new Planet(name, numberOfMoons, hasRings, surfaceGases);
         Assert.assertEquals(venus.getNumberOfMoons(), numberOfMoons);
-        Assert.assertEquals(venus.isRings(), hasRings);
+        Assert.assertEquals(venus.hasRings(), hasRings);
         Assert.assertEquals(venus.getSurfaceGases(), surfaceGases);
     }
 
@@ -44,15 +44,15 @@ public class PlanetTest {
     }
 
     @Test
-    public void testIsRings() {
+    public void testHasRings() {
         Planet venus = new Planet("Venus", 0, false, Arrays.asList("Carbon Dioxide", "Nitrogen"));
-        boolean hasRings = venus.isRings();
+        boolean hasRings = venus.hasRings();
         Assert.assertFalse(hasRings);
     }
     @Test
-    public void testIsRingsFalse() {
+    public void testHasRingsFalse() {
         Planet venus = new Planet("Venus", 0, false, Arrays.asList("Carbon Dioxide", "Nitrogen"));
-        boolean hasRings = venus.isRings();
+        boolean hasRings = venus.hasRings();
         Assert.assertTrue(hasRings);
     }
 }

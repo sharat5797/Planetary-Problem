@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3505d5bf-f440-4cfd-bb25-975784c4eb67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PlanetDataAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlanetDataAnalysisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlanetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PlanetDataAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PlanetDataAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlanetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlanetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.PlanetDataAnalysisTest">
+  <component name="RunManager" selected="Gradle.PlanetTest">
     <configuration name="PlanetDataAnalysisTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PlanetDataAnalysisTest" />
         <item itemvalue="Gradle.PlanetTest" />
+        <item itemvalue="Gradle.PlanetDataAnalysisTest" />
         <item itemvalue="Gradle.PlanetTest.testPlanet" />
         <item itemvalue="Gradle.PlanetDataAnalysisTest.testMoonsCountIfRingsPresent" />
         <item itemvalue="Gradle.PlanetDataAnalysisTest.gasFoundOnMaximumPlanetsTest" />

@@ -23,7 +23,7 @@ public class Planet {
         return surfaceGases;
     }
 
-    public boolean isRings() {
+    public boolean hasRings() {
         return rings;
     }
 }
